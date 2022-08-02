@@ -4,7 +4,7 @@ const findLocalIp = require("./utils/findLocalIp");
 let port = 3000
 
 function backend() {
-  console.log("Starting on port " + port);
+  console.log("starting on port " + port);
   app.get('/', async (req, res) => {
     res.sendStatus(200)
     res.send("Hello World")
