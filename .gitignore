@@ -7,6 +7,9 @@
 # testing
 /app/backend/tests
 
+# logs
+/website/logs
+
 # production
 /build
 
