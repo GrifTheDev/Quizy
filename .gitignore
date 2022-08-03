@@ -1,5 +1,5 @@
 # dependencies
-/app/frontend/node_modules
+/website/frontend/node_modules
 /.pnp
 .pnp.js
 /node_modules
