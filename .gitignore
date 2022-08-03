@@ -5,7 +5,7 @@
 /node_modules
 
 # testing
-/app/backend/tests
+/website/backend/tests
 
 # logs
 /website/logs
