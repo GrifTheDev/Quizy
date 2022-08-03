@@ -15,7 +15,7 @@ const serverLogger = createLogger({
   transports: [
     new transports.Console(),
     new transports.File({ filename: "website/logs/bot/errors.log", level: "error" }),
-    new transports.File({ filename: "logs/bot/warns.log", level: "warn" }),
+    new transports.File({ filename: "website/logs/bot/warns.log", level: "warn" }),
   ],
   exitOnError: true
 });
